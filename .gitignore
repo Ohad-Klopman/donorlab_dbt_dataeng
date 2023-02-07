@@ -1,0 +1,15 @@
+#secrets and variables
+secrets.env
+*secrets.env
+vars.env
+
+#dbt
+logs/
+target/
+.user.yml
+dbt-env/
+dbt_packages/
+
+.DS_Store
+README.html
+style_guide.html

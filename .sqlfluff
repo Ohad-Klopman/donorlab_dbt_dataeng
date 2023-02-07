@@ -1,0 +1,32 @@
+[sqlfluff]
+templater = dbt
+dialect = snowflake
+exclude_rules = L029, L031, L034, L035, L050
+nocolor = True
+large_file_skip_byte_limit = 0
+
+[sqlfluff:templater:dbt]
+project_dir = .
+profiles.dir = .
+
+[sqlfluff_indentation]
+tab_space_size = 2
+
+[sqlfluff:rules:L004]
+indent_unit = space
+
+[sqlfluff:rules:L010]
+indent_unit = space
+
+[sqlfluff:rules:L014]
+extended_capitalization_policy = lower
+
+[sqlfluff:rules:L030]
+extended_capitalization_policy = upper
+
+[sqlfluff:rules:L036]
+wizard_policy = multiple
+
+
+[sqlfluff:rules:L054]
+group_by_and_order_by_style = explicit
