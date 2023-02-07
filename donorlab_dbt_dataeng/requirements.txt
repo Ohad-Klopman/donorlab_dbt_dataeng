@@ -1,0 +1,6 @@
+dbt-core==1.2.1
+dbt-snowflake==1.2.0
+sqlfluff==2.0.0a2
+sqlfluff-templater-dbt==2.0.0a2
+fal==0.3.4
+slack-sdk==3.13.0
