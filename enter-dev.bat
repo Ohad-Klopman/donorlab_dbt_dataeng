@@ -1,3 +1,6 @@
 @echo off
 
-start . dbt-env\bin\activate
+start .\dbt-env\Scripts\activate
+
+pip3 install -r requirements.txt
+
