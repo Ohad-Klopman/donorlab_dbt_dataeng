@@ -2,7 +2,7 @@ config:
   use_colors: true
   send_anonymous_usage_stats: false
 
-donorlab-snowflake:
+donorlab_dbt_dataeng:
   target: "{{ env_var('DBT_ENV_SNOWFLAKE_ACCOUNT_ID') }}"
   outputs:
     dev:
