@@ -1,6 +1,6 @@
 #secrets and variables
 secrets.env
-*secrets.env
+secrets.env
 vars.env
 
 #dbt
